@@ -2,8 +2,8 @@
 
 namespace App\MessageHandler;
 
-use App\Entity\Commande;
-use App\Message\CommandePasseeMessage;
+use App\Domain\Entity\Commande;
+use App\Domain\Message\CommandePasseeMessage;
 use Doctrine\ORM\EntityManagerInterface;
 use Symfony\Component\Mailer\MailerInterface;
 use Symfony\Component\Messenger\Attribute\AsMessageHandler;

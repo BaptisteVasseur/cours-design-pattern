@@ -2,7 +2,7 @@
 
 namespace App\Tests\Functional;
 
-use App\Entity\Commande;
+use App\Domain\Entity\Commande;
 
 class PasserCommandeTest extends FunctionalTestCase
 {

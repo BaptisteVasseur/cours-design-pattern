@@ -2,11 +2,11 @@
 # VERSION "SALE" (avant/)
 # Les controllers sont dans src/Controller/, namespace App\Controller.
 # ──────────────────────────────────────────────────────────────────────────────
-controllers:
-    resource:
-        path: ../src/Controller/
-        namespace: App\Controller
-    type: attribute
+#controllers:
+#    resource:
+#        path: ../src/Controller/
+#        namespace: App\Controller
+#    type: attribute
 
 # ──────────────────────────────────────────────────────────────────────────────
 # VERSION DDD (apres/) — remplacer le bloc "controllers" ci-dessus par ceci :
@@ -14,10 +14,10 @@ controllers:
 # Les controllers vivent dans Application/ car ils orchestrent les use cases.
 # Infrastructure/ accueille les adaptateurs techniques (Doctrine, Mailer…).
 #
-# controllers:
-#     resource:
-#         path: ../src/Application/Controller/
-#         namespace: App\Application\Controller
-#     type: attribute
+ controllers:
+     resource:
+         path: ../src/Application/Controller/
+         namespace: App\Application\Controller
+     type: attribute
 #
 # ──────────────────────────────────────────────────────────────────────────────

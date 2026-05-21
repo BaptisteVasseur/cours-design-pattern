@@ -1,13 +1,12 @@
 <?php
 
-namespace App\Entity;
+namespace App\Domain\Entity;
 
 use Doctrine\Common\Collections\ArrayCollection;
 use Doctrine\Common\Collections\Collection;
 use Doctrine\ORM\Mapping as ORM;
 
 #[ORM\Entity]
-#[ORM\Table(name: 'commande')]
 class Commande
 {
     const STATUT_EN_ATTENTE = 'EN_ATTENTE';

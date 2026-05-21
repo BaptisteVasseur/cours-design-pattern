@@ -2,9 +2,9 @@
 
 namespace App\Tests\Functional;
 
-use App\Entity\Commande;
-use App\Entity\LigneCommande;
-use App\Entity\Produit;
+use App\Domain\Entity\Commande;
+use App\Domain\Entity\LigneCommande;
+use App\Domain\Entity\Produit;
 use Doctrine\ORM\EntityManagerInterface;
 use Doctrine\ORM\Tools\SchemaTool;
 use Symfony\Bundle\FrameworkBundle\KernelBrowser;

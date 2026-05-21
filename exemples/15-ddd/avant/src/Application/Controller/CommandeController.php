@@ -2,10 +2,10 @@
 
 namespace App\Controller;
 
-use App\Entity\Commande;
-use App\Entity\LigneCommande;
-use App\Entity\Produit;
-use App\Message\CommandePasseeMessage;
+use App\Domain\Entity\Commande;
+use App\Domain\Entity\LigneCommande;
+use App\Domain\Entity\Produit;
+use App\Domain\Message\CommandePasseeMessage;
 use Doctrine\ORM\EntityManagerInterface;
 use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
 use Symfony\Component\HttpFoundation\Request;

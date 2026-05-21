@@ -19,7 +19,7 @@ framework:
         # brut — ce n'est pas un Domain Event, juste un DTO de déclenchement.
         # ──────────────────────────────────────────────────────────────────────
         routing:
-            App\Message\CommandePasseeMessage: async
+            App\Domain\Message\CommandePasseeMessage: async
 
         # ──────────────────────────────────────────────────────────────────────
         # VERSION DDD (apres/) — remplacer le bloc "routing" ci-dessus par :
